@@ -27,8 +27,13 @@
 [gif](./gif)|展示用图片
 
 ## 效果展示
+训练图
 ![paddle](./gif/paddle.gif)
 ![paddle2](./gif/paddle2.gif)
+
+测试图
+![paddle3](./gif/paddle3.gif)
+![paddle4](./gif/paddle4.gif)
 
 ## Tips
 * 如果直接从源环境中使用的话他step 函数的state与reward是位置需要调换一下
