@@ -2,6 +2,7 @@
 
 > 强化学习打卡营 终级项目复现
 环境地址为：https://github.com/shivaverma/Orbit
+
 课程地址：https://aistudio.baidu.com/aistudio/education/group/info/1335
 
 ## 简介
@@ -26,8 +27,13 @@
 [gif](./gif)|展示用图片
 
 ## 效果展示
+训练图
 ![paddle](./gif/paddle.gif)
 ![paddle2](./gif/paddle2.gif)
+
+测试图
+![paddle3](./gif/paddle3.gif)
+![paddle4](./gif/paddle4.gif)
 
 ## Tips
 * 如果直接从源环境中使用的话他step 函数的state与reward是位置需要调换一下
@@ -36,4 +42,3 @@
 Line 102 :return state,self.reward, self.done
 ```
 * 初始的e_greed  最好选取的大一点 否则 可能会导致过了几十个个episode都碰不到球【脸黑】 随着尝试几率越来越低 逐步走向自闭
-* 本项目训练到最后仍会又漏接的情况 而且有时候越训练效果反而越差 如果有大佬看到希望帮忙解答一下
