@@ -28,10 +28,12 @@
 
 ## 效果展示
 训练图
+
 ![paddle](./gif/paddle.gif)
 ![paddle2](./gif/paddle2.gif)
 
 测试图
+
 ![paddle3](./gif/paddle3.gif)
 ![paddle4](./gif/paddle4.gif)
 
