@@ -1,0 +1,23 @@
+[06-28 11:24:00 MainThread @logger.py:224] Argv: f:\Projects\PARL\PaddleTask\Paddle_PARL\main.py
+[06-28 11:24:00 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-28 11:24:00 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-28 11:24:04 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
+[06-28 11:24:55 MainThread @main.py:110] episode:50    e_greed:0.4891730000002897   test_reward:-3.3600000000000003
+[06-28 11:26:24 MainThread @main.py:110] episode:100    e_greed:0.4744940000006824   test_reward:-6.799999999999981
+[06-28 11:27:08 MainThread @main.py:110] episode:150    e_greed:0.4657780000009156   test_reward:-3.12
+[06-28 11:28:19 MainThread @main.py:110] episode:200    e_greed:0.45254300000126974   test_reward:-3.12
+[06-28 11:29:37 MainThread @main.py:110] episode:250    e_greed:0.4410260000015779   test_reward:3.4200000000000004
+[06-28 11:31:28 MainThread @main.py:110] episode:300    e_greed:0.4229980000020602   test_reward:1.3199999999999998
+[06-28 11:34:02 MainThread @main.py:110] episode:350    e_greed:0.39952900000268815   test_reward:-1.0200000000000018
+[06-28 11:36:54 MainThread @main.py:110] episode:400    e_greed:0.3732190000033921   test_reward:4.4
+[06-28 11:39:23 MainThread @main.py:110] episode:450    e_greed:0.3511070000039837   test_reward:2.32
+[06-28 11:42:11 MainThread @main.py:110] episode:500    e_greed:0.3239280000047109   test_reward:1.8799999999999997
+[06-28 11:45:10 MainThread @main.py:110] episode:550    e_greed:0.29566600000546706   test_reward:1.7600000000000002
+[06-28 11:48:35 MainThread @main.py:110] episode:600    e_greed:0.2636270000063243   test_reward:-0.14000000000000057
+[06-28 11:52:09 MainThread @main.py:110] episode:650    e_greed:0.22837300000666724   test_reward:4.06
+[06-28 11:55:41 MainThread @main.py:110] episode:700    e_greed:0.19137400000663024   test_reward:1.0799999999999994
+[06-28 12:00:16 MainThread @main.py:110] episode:750    e_greed:0.15251700000659138   test_reward:7.300000000000002
+[06-28 12:05:41 MainThread @main.py:110] episode:800    e_greed:0.10886700000654773   test_reward:5.380000000000001
+[06-28 12:10:35 MainThread @main.py:110] episode:850    e_greed:0.07281100000651167   test_reward:6.2799999999999985
+[06-28 12:16:54 MainThread @main.py:110] episode:900    e_greed:0.02579900000646465   test_reward:6.7200000000000015
+[06-28 12:23:54 MainThread @main.py:110] episode:950    e_greed:0.01   test_reward:7.380000000000001
