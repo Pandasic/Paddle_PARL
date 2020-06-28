@@ -12,8 +12,8 @@ class Agent(parl.Agent):
                  algorithm,
                  obs_dim,
                  act_dim,
-                 e_greed=0.5,
-                 e_greed_decrement=0.001):
+                 e_greed=0.01,
+                 e_greed_decrement=0):
         assert isinstance(obs_dim, int)
         assert isinstance(act_dim, int)
         self.obs_dim = obs_dim
