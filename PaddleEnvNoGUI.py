@@ -4,25 +4,15 @@
 import turtle as t
 import random
 
-
-class PaddleEnv():
-
+class PaddleEnvNoGUI():
     def __init__(self):
 
         self.done = False
         self.reward = 0
         self.hit, self.miss = 0, 0
 
-        # Setup Background
-
-        self.win = t.Screen()
-        self.win.title('Paddle')
-        self.win.bgcolor('black')
-        self.win.setup(width=600, height=600)
-        self.win.tracer(0)
 
         # Paddle
-
         self.paddle = t.Turtle()
         self.paddle.speed(0)
         self.paddle.shape('square')
