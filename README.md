@@ -20,7 +20,7 @@
 ---|---
 [train.py](./train.py)| 用于训练的文件
 [test.py](./test.py) |效果展示文件
-[Model.py](. /Model.py)| DQN内全连接网络的定义
+[Model.py](./Model.py)| DQN内全连接网络的定义
 [Agent.py](./Agent.py) | 训练机的定义
 [ReplayMemory.py](./RelpayMemory.py)| 经验池的定义
 [Modle](./Model)|用于储存模型
@@ -28,10 +28,12 @@
 
 ## 效果展示
 训练图
+
 ![paddle](./gif/paddle.gif)
 ![paddle2](./gif/paddle2.gif)
 
 测试图
+
 ![paddle3](./gif/paddle3.gif)
 ![paddle4](./gif/paddle4.gif)
 
