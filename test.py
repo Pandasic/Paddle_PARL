@@ -37,14 +37,12 @@ agent = Agent(
     algorithm,
     obs_dim=obs_shape[0],
     act_dim=action_dim,
-    e_greed=0.5,  # 有一定概率随机选取动作，探索
+    e_greed=0.05,  # 有一定概率随机选取动作，探索
     e_greed_decrement=10e-7)  # 随着训练逐步收敛，探索的程度慢慢降低
 
 # 加载模型
 save_path = './Model/dqn_model.ckpt'
 agent.restore(save_path)
-
-max_episode = 2000
 
 while True:  # 训练max_episode个回合，test部分不计算入episode数量
     obs = env.reset()

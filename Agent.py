@@ -52,7 +52,7 @@ class Agent(parl.Agent):
         else:
             act = self.predict(obs)  # 选择最优动作
         self.e_greed = max(
-            0.05, self.e_greed - self.e_greed_decrement)  # 随着训练逐步收敛，探索的程度慢慢降低
+            0.01, self.e_greed - self.e_greed_decrement)  # 随着训练逐步收敛，探索的程度慢慢降低
         return act
 
     def predict(self, obs):  # 选择最优动作

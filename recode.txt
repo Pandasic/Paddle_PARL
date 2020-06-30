@@ -1,23 +1,60 @@
-[06-28 11:24:00 MainThread @logger.py:224] Argv: f:\Projects\PARL\PaddleTask\Paddle_PARL\main.py
-[06-28 11:24:00 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
-[06-28 11:24:00 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
-[06-28 11:24:04 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
-[06-28 11:24:55 MainThread @main.py:110] episode:50    e_greed:0.4891730000002897   test_reward:-3.3600000000000003
-[06-28 11:26:24 MainThread @main.py:110] episode:100    e_greed:0.4744940000006824   test_reward:-6.799999999999981
-[06-28 11:27:08 MainThread @main.py:110] episode:150    e_greed:0.4657780000009156   test_reward:-3.12
-[06-28 11:28:19 MainThread @main.py:110] episode:200    e_greed:0.45254300000126974   test_reward:-3.12
-[06-28 11:29:37 MainThread @main.py:110] episode:250    e_greed:0.4410260000015779   test_reward:3.4200000000000004
-[06-28 11:31:28 MainThread @main.py:110] episode:300    e_greed:0.4229980000020602   test_reward:1.3199999999999998
-[06-28 11:34:02 MainThread @main.py:110] episode:350    e_greed:0.39952900000268815   test_reward:-1.0200000000000018
-[06-28 11:36:54 MainThread @main.py:110] episode:400    e_greed:0.3732190000033921   test_reward:4.4
-[06-28 11:39:23 MainThread @main.py:110] episode:450    e_greed:0.3511070000039837   test_reward:2.32
-[06-28 11:42:11 MainThread @main.py:110] episode:500    e_greed:0.3239280000047109   test_reward:1.8799999999999997
-[06-28 11:45:10 MainThread @main.py:110] episode:550    e_greed:0.29566600000546706   test_reward:1.7600000000000002
-[06-28 11:48:35 MainThread @main.py:110] episode:600    e_greed:0.2636270000063243   test_reward:-0.14000000000000057
-[06-28 11:52:09 MainThread @main.py:110] episode:650    e_greed:0.22837300000666724   test_reward:4.06
-[06-28 11:55:41 MainThread @main.py:110] episode:700    e_greed:0.19137400000663024   test_reward:1.0799999999999994
-[06-28 12:00:16 MainThread @main.py:110] episode:750    e_greed:0.15251700000659138   test_reward:7.300000000000002
-[06-28 12:05:41 MainThread @main.py:110] episode:800    e_greed:0.10886700000654773   test_reward:5.380000000000001
-[06-28 12:10:35 MainThread @main.py:110] episode:850    e_greed:0.07281100000651167   test_reward:6.2799999999999985
-[06-28 12:16:54 MainThread @main.py:110] episode:900    e_greed:0.02579900000646465   test_reward:6.7200000000000015
-[06-28 12:23:54 MainThread @main.py:110] episode:950    e_greed:0.01   test_reward:7.380000000000001
+[06-29 15:27:19 MainThread @logger.py:224] Argv: f:\Projects\PARL\PaddleTask\Paddle_PARL\train.py
+[06-29 15:27:20 MainThread @machine_info.py:78] CUDA_VISIBLE_DEVICES found gpu count: 1
+[06-29 15:27:20 MainThread @machine_info.py:78] CUDA_VISIBLE_DEVICES found gpu count: 1
+W0629 15:27:20.738719 10360 device_context.cc:252] Please NOTE: device: 0, CUDA Capability: 61, Driver API Version: 10.2, Runtime API Version: 10.0
+W0629 15:27:20.753720 10360 device_context.cc:260] device: 0, cuDNN Version: 7.6.
+[06-29 15:27:27 MainThread @machine_info.py:78] CUDA_VISIBLE_DEVICES found gpu count: 1
+[06-29 15:32:35 MainThread @train.py:113] episode:50    e_greed:0.4566630000011595   test_reward:3.5000000000000013    total_reward:-1329.8999999999999  hit/miss=0.6440677966101694
+[06-29 15:37:05 MainThread @train.py:113] episode:100    e_greed:0.4201500000021364   test_reward:1.5000000000000013    total_reward:-1095.0000000000039  hit/miss=0.6424242424242425
+[06-29 15:47:08 MainThread @train.py:113] episode:150    e_greed:0.3352630000044076   test_reward:2.700000000000004    total_reward:-1921.2000000000053  hit/miss=0.7196110210696921
+[06-29 15:58:14 MainThread @train.py:113] episode:200    e_greed:0.25506900000655325   test_reward:7.400000000000011    total_reward:-1345.7000000000055  hit/miss=0.7469478357380688
+[06-29 16:13:49 MainThread @train.py:113] episode:250    e_greed:0.16585000000660471   test_reward:31.89999999999991    total_reward:-957.7000000000035  hit/miss=0.7771653543307087
+[06-29 16:34:20 MainThread @train.py:113] episode:300    e_greed:0.0719380000065108   test_reward:34.70000000000006    total_reward:-380.9999999999994  hit/miss=0.7942787583688375
+[06-29 17:18:48 MainThread @train.py:113] episode:350    e_greed:0.05   test_reward:8.900000000000007    total_reward:345.4999999999979  hit/miss=0.8256433007985803
+[06-29 17:35:12 MainThread @train.py:113] episode:400    e_greed:0.05   test_reward:-4.42    total_reward:171.69999999999965  hit/miss=0.8297872340425532
+[06-29 17:50:28 MainThread @train.py:113] episode:450    e_greed:0.05   test_reward:2.6645352591003757e-15    total_reward:98.80000000000072  hit/miss=0.8317162930746069
+[06-29 18:13:14 MainThread @train.py:113] episode:500    e_greed:0.05   test_reward:2.2000000000000086    total_reward:252.40000000000026  hit/miss=0.8391003460207612
+[06-29 18:51:07 MainThread @train.py:113] episode:550    e_greed:0.05   test_reward:3.4000000000000044    total_reward:327.69999999999834  hit/miss=0.8462117410938284
+[06-29 19:14:51 MainThread @train.py:113] episode:600    e_greed:0.05   test_reward:2.4000000000000044    total_reward:243.49999999999892  hit/miss=0.8504589209760466
+[06-29 19:39:42 MainThread @train.py:113] episode:650    e_greed:0.05   test_reward:6.200000000000005    total_reward:270.8999999999982  hit/miss=0.854380664652568
+[06-29 20:00:34 MainThread @train.py:113] episode:700    e_greed:0.05   test_reward:14.099999999999989    total_reward:170.80000000000044  hit/miss=0.8554709269923835
+[06-29 20:17:22 MainThread @train.py:113] episode:750    e_greed:0.05   test_reward:2.4000000000000052    total_reward:52.7999999999999  hit/miss=0.8545740223463687
+[06-29 20:43:34 MainThread @train.py:113] episode:800    e_greed:0.05   test_reward:4.600000000000005    total_reward:241.8999999999994  hit/miss=0.8577151097580515
+[06-29 21:09:03 MainThread @train.py:113] episode:850    e_greed:0.05   test_reward:9.000000000000005    total_reward:281.5999999999986  hit/miss=0.8607912607026867
+[06-29 21:36:01 MainThread @train.py:113] episode:900    e_greed:0.05   test_reward:15.699999999999983    total_reward:312.90000000000066  hit/miss=0.8641622430924186
+[06-29 21:58:04 MainThread @train.py:113] episode:950    e_greed:0.05   test_reward:8.800000000000002    total_reward:222.9999999999996  hit/miss=0.8655172413793103
+[06-29 22:22:27 MainThread @train.py:113] episode:1000    e_greed:0.05   test_reward:48.7999999999999    total_reward:177.1999999999992  hit/miss=0.8678277466300847
+[06-29 22:43:47 MainThread @train.py:113] episode:1050    e_greed:0.05   test_reward:13.099999999999989    total_reward:133.79999999999959  hit/miss=0.8686172616357886
+[06-29 23:02:18 MainThread @train.py:113] episode:1100    e_greed:0.05   test_reward:8.100000000000005    total_reward:-25.400000000000038  hit/miss=0.8685942388607185
+[06-29 23:23:13 MainThread @train.py:113] episode:1150    e_greed:0.05   test_reward:6.700000000000015    total_reward:-222.1999999999994  hit/miss=0.8692078495838899
+[06-29 23:31:18 MainThread @train.py:113] episode:1200    e_greed:0.05   test_reward:-3.580000000000002    total_reward:-241.19999999999985  hit/miss=0.8663042383972617
+[06-29 23:44:40 MainThread @train.py:113] episode:1250    e_greed:0.05   test_reward:0.9000000000000078    total_reward:-366.4999999999997  hit/miss=0.8650600058542297
+[06-30 00:27:42 MainThread @train.py:113] episode:1300    e_greed:0.05   test_reward:188.30000000000985    total_reward:-147.8999999999996  hit/miss=0.8732146005995415
+[06-30 00:58:00 MainThread @train.py:113] episode:1350    e_greed:0.05   test_reward:11.500000000000007    total_reward:-34.600000000000435  hit/miss=0.8755937005249562
+[06-30 01:26:30 MainThread @train.py:113] episode:1400    e_greed:0.05   test_reward:-3.800000000000002    total_reward:-46.499999999999616  hit/miss=0.8773278389729773
+[06-30 01:47:29 MainThread @train.py:113] episode:1450    e_greed:0.05   test_reward:0.20000000000000906    total_reward:-155.19999999999993  hit/miss=0.8774839498624274
+[06-30 02:06:35 MainThread @train.py:113] episode:1500    e_greed:0.05   test_reward:62.31999999999975    total_reward:-181.09999999999943  hit/miss=0.8775751310640183
+[06-30 02:19:33 MainThread @train.py:113] episode:1550    e_greed:0.05   test_reward:-4.3    total_reward:-118.39999999999955  hit/miss=0.876246207195492
+[06-30 02:36:37 MainThread @train.py:113] episode:1600    e_greed:0.05   test_reward:8.700000000000026    total_reward:-116.19999999999922  hit/miss=0.8757816342303099
+[06-30 02:53:17 MainThread @train.py:113] episode:1650    e_greed:0.05   test_reward:9.200000000000028    total_reward:-39.599999999999724  hit/miss=0.8752907374469832
+[06-30 03:07:46 MainThread @train.py:113] episode:1700    e_greed:0.05   test_reward:11.800000000000008    total_reward:-154.29999999999993  hit/miss=0.874440061509661
+[06-30 03:23:11 MainThread @train.py:113] episode:1750    e_greed:0.05   test_reward:11.599999999999982    total_reward:-48.199999999999484  hit/miss=0.8737921128231915
+[06-30 03:42:34 MainThread @train.py:113] episode:1800    e_greed:0.05   test_reward:8.699999999999996    total_reward:-0.49999999999917577  hit/miss=0.8738018155272012
+[06-30 03:56:09 MainThread @train.py:113] episode:1850    e_greed:0.05   test_reward:4.0000000000000036    total_reward:-47.09999999999939  hit/miss=0.8728212151394422
+[06-30 04:07:04 MainThread @train.py:113] episode:1900    e_greed:0.05   test_reward:10.200000000000008    total_reward:-91.29999999999941  hit/miss=0.8715248009797918
+[06-30 04:17:17 MainThread @train.py:113] episode:1950    e_greed:0.05   test_reward:9.800000000000015    total_reward:-151.0999999999996  hit/miss=0.8701604149077313
+[06-30 04:27:59 MainThread @train.py:113] episode:2000    e_greed:0.05   test_reward:8.719999999999986    total_reward:-138.79999999999956  hit/miss=0.8688913959978624
+[06-30 04:36:38 MainThread @train.py:113] episode:2050    e_greed:0.05   test_reward:5.5400000000000045    total_reward:-174.79999999999953  hit/miss=0.8673194183864915
+[06-30 04:48:18 MainThread @train.py:113] episode:2100    e_greed:0.05   test_reward:3.900000000000003    total_reward:-141.5999999999994  hit/miss=0.866258942995615
+[06-30 05:00:30 MainThread @train.py:113] episode:2150    e_greed:0.05   test_reward:10.09999999999999    total_reward:-140.89999999999938  hit/miss=0.8653464222890541
+[06-30 05:07:30 MainThread @train.py:113] episode:2200    e_greed:0.05   test_reward:3.7000000000000037    total_reward:-216.99999999999972  hit/miss=0.8636261514266457
+[06-30 05:16:08 MainThread @train.py:113] episode:2250    e_greed:0.05   test_reward:4.300000000000001    total_reward:-230.69999999999968  hit/miss=0.8622010100449525
+[06-30 05:28:14 MainThread @train.py:113] episode:2300    e_greed:0.05   test_reward:1.700000000000045    total_reward:-178.09999999999954  hit/miss=0.8613720777802054
+[06-30 05:43:32 MainThread @train.py:113] episode:2350    e_greed:0.05   test_reward:1.4000000000000514    total_reward:-307.19999999999953  hit/miss=0.8610471035850169
+[06-30 06:00:57 MainThread @train.py:113] episode:2400    e_greed:0.05   test_reward:9.700000000000024    total_reward:-255.9999999999992  hit/miss=0.8610703043022035
+[06-30 06:16:34 MainThread @train.py:113] episode:2450    e_greed:0.05   test_reward:2.9000000000000337    total_reward:-153.49999999999935  hit/miss=0.8608064266955044
+[06-30 06:30:02 MainThread @train.py:113] episode:2500    e_greed:0.05   test_reward:-1.139999999999994    total_reward:-345.1999999999996  hit/miss=0.860198702351987
+[06-30 06:40:41 MainThread @train.py:113] episode:2550    e_greed:0.05   test_reward:1.0199999999999676    total_reward:-302.0999999999995  hit/miss=0.8592444333249938
+[06-30 06:56:12 MainThread @train.py:113] episode:2600    e_greed:0.05   test_reward:14.599999999999998    total_reward:-447.2999999999993  hit/miss=0.8590178439758148
+[06-30 07:13:08 MainThread @train.py:113] episode:2650    e_greed:0.05   test_reward:15.399999999999968    total_reward:-119.499999999999  hit/miss=0.8590306245478659
+[06-30 07:29:08 MainThread @train.py:113] episode:2700    e_greed:0.05   test_reward:-0.4000000000000017    total_reward:-227.19999999999902  hit/miss=0.8588357982555935

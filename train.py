@@ -4,7 +4,7 @@ import paddle.fluid as fluid
 import copy
 import numpy as np
 import os
-import gym
+#import gym
 from parl.utils import logger
 from parl.algorithms import DQN
 import paddle
@@ -78,7 +78,7 @@ agent = Agent(
     algorithm,
     obs_dim=obs_shape[0],
     act_dim=action_dim,
-    e_greed=0.5,  # 有一定概率随机选取动作，探索
+    e_greed=0.05,  # 有一定概率随机选取动作，探索
     e_greed_decrement=10e-7)  # 随着训练逐步收敛，探索的程度慢慢降低
 
 # 加载缓存模型
@@ -117,7 +117,7 @@ while episode < max_episode:  # 训练max_episode个回合，test部分不计算
     agent.save(save_path)
 
     if eval_time%1 ==0:
-        save_path = './Model/dqn_model_%d.ckpt'%episode
+        save_path = './Model/dqn_model_%d.ckpt'%episode+2700
         agent.save(save_path)
 
 # 训练结束，保存模型

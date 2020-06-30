@@ -44,3 +44,4 @@
 Line 102 :return state,self.reward, self.done
 ```
 * 初始的e_greed  最好选取的大一点 否则 可能会导致过了几十个个episode都碰不到球【脸黑】 随着尝试几率越来越低 逐步走向自闭
+* 当前MODEL 选择的是训练第1000ep的MODEL 往后训练会越练越差？
